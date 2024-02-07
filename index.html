@@ -75,7 +75,10 @@
     />
     <link rel="manifest" href="./assces/favicon/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="./assces/favicon/ms-icon-144x144.png" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assces/favicon/ms-icon-144x144.png"
+    />
     <meta name="theme-color" content="#ffffff" />
     <!-- embed fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -90,7 +93,38 @@
     <link rel="stylesheet" href="./assces/css/style.css" />
     <title>shine smile</title>
   </head>
-  <body>
-    <h1>Project 3</h1>
+  <body style="height: 5000px">
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <!-- logo -->
+          <a href="./"
+            ><img src="./assces/img/logo.svg" alt="shine smile" class="logo"
+          /></a>
+          <!-- nav -->
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link navbar__link--active">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Services</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">About</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Doctors</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- cta action -->
+          <div class="header__action">
+            <a href="#!" class="header__action--login">Log In</a>
+            <a href="#!" class="btn header__action--signup">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
