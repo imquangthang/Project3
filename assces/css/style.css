@@ -28,7 +28,7 @@ a {
 
 .btn {
   display: inline-block;
-  max-width: 205px;
+  min-width: 205px;
   line-height: 60px;
   background: #2e80ce;
   color: #fff;
@@ -90,11 +90,63 @@ a {
 }
 
 .header__action--signup {
-  min-width: 144px;
+  min-width: 104px;
   line-height: 44px;
   font-size: 1.6rem;
 }
 
 .header__action--login {
   margin-right: 7px;
+}
+
+/* ========== Hero ========== */
+.hero {
+  display: flex;
+  padding-top: 76px;
+  align-items: center;
+}
+
+.hero__content {
+  width: 44%;
+}
+
+.hero__media {
+  flex: 1;
+}
+
+.hero__headding {
+  color: #fff;
+  font-size: 7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -1.4px;
+}
+
+.hero__desc {
+  margin-top: 22px;
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.hero__row {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.hero__phone {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+.hero__images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
