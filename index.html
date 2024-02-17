@@ -207,7 +207,8 @@
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
             >
-              <path fill="currentColor"
+              <path
+                fill="currentColor"
                 d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
               />
             </svg>
@@ -222,6 +223,18 @@
           // copy
           navMobile.innerHTML = navPC.innerHTML;
         </script>
+
+        <!-- separate ngăn cách -->
+        <div class="separate"></div>
+        <!-- cta action -->
+        <div class="show-on-mobile">
+          <li class="navbar__item">
+            <a href="#!" class="navbar__link">Log In</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#!" class="navbar__link">Sign Up</a>
+          </li>
+        </div>
       </div>
     </div>
 
@@ -334,7 +347,7 @@
       <section class="work">
         <div class="container">
           <h2 class="section-heading">How it works</h2>
-          <p class="section-desc">
+          <p class="section-desc work-desc">
             Exceptional dental care for all ages. Your great smile begins with a
             great dentist.
           </p>

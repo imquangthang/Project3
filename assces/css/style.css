@@ -475,7 +475,7 @@ a {
 }
 
 .install__content {
-  max-width: 686px;
+  min-width: 586px;
 }
 
 .install__heading {
@@ -485,9 +485,9 @@ a {
 
 .install__desc {
   margin-top: 18px;
-  min-width: 586px;
+  max-width: 586px;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.67;
 }
@@ -625,7 +625,7 @@ a {
 
 .appointment__desc {
   margin: 18px auto 0;
-  min-width: 617px;
+  max-width: 617px;
 }
 
 .appointment__btn {
