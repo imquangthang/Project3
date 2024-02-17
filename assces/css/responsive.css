@@ -147,9 +147,27 @@
     margin: 25px auto;
   }
 
-  .about-content{
+  .about-content {
     width: 90%;
     text-align: center;
+  }
+
+  .team__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 30px;
+  }
+
+  .team-item__thumb{
+    margin: 0 auto;
+  }
+
+  .install__img{
+    display: none;
+  }
+
+  .install__content{
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
